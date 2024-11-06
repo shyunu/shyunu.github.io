@@ -454,9 +454,29 @@ figure .img-wrapper {
   position: relative;
   overflow: hidden;
 }
+/* 이미지 두 개를 가로로 배치 */
+.image-container {
+  display: flex; /* flexbox를 사용하여 가로 배치 */
+  justify-content: space-around; /* 이미지 사이에 간격을 두기 */
+  padding: 10px;
+}
+
+.image-container img {
+  width: 40%; /* 각 이미지의 너비를 48%로 설정하여 여백을 만듦 */
+  height: 280px;
+  border-radius: 25px;
+}
+.img-fluid {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
 figure img {
   transform: scale3d(1, 1, 1);
   transition: transform 400ms;
+  width: 600px;
+  height: 500px;
+  object-fit: cover;
 }
 figure:hover img {
   transform: scale3d(1.2, 1.2, 1);

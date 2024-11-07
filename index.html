@@ -72,6 +72,9 @@
                             <li class="nav-item">
                               <a class="nav-link" href="#projects">Projects</a>
                             </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#archive">Archive</a>
+                            </li>
                             <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false">
@@ -166,6 +169,61 @@ Slider Section Start
   </div>
 </section> <!-- /#about -->
 
+<!-- skills -->
+<section id="skills" class="skills" id="skills"></section>
+  <div class="container">
+    <div class="section-heading">
+      <h1 class="title wow fadeInDown" data-wow-delay=".3s">Skills</h1>
+      <p class="subtitle wow fadeInUp" data-wow-delay=".5s">저는 다양한 기술을 사용하여 프로젝트를 성공적으로 완수해왔습니다. 아래는 제가 보유한 주요 기술입니다.</p>
+    </div>
+
+    <!-- Skill Categories -->
+    <div class="row">
+      <!-- Language -->
+      <div class="col-md-3">
+        <h3 class="wow fadeInLeft" data-wow-delay="0.3s">👩🏻‍💻 Language</h3>
+        <div class="d-flex flex-wrap">
+          <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white">
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
+        </div>
+      </div>
+
+      <!-- FrontEnd -->
+      <div class="col-md-3">
+        <h3 class="wow fadeInLeft" data-wow-delay="0.3s">🖥️ FrontEnd</h3>
+        <div class="d-flex flex-wrap">
+          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
+          <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
+          <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
+          <img src="https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=React&logoColor=white">
+          <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white">
+
+        </div>
+      </div>
+
+      <!-- BackEnd -->
+      <div class="col-md-3">
+        <h3 class="wow fadeInLeft" data-wow-delay="0.3s">🛠️ BackEnd</h3>
+        <div class="d-flex flex-wrap">
+          <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=JetBrains&logoColor=white">
+          <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jQuery&logoColor=white">
+          <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=Thymeleaf&logoColor=white">
+          <img src="https://img.shields.io/badge/MyBatis-7E3A3A?style=for-the-badge&logo=MyBatis&logoColor=white">
+          <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white">
+        </div>
+      </div>
+
+      <!-- Database -->
+      <div class="col-md-3">
+        <h3 class="wow fadeInLeft" data-wow-delay="0.3s">🗄️ DATABASE</h3>
+        <div class="d-flex flex-wrap">
+          <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
+          <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Projects -->
 <section id="works" class="works">
@@ -300,17 +358,20 @@ Slider Section Start
     </div>
   </div>
 </section> <!-- #works -->
-<!--
-==================================================
-Portfolio Section Start
-================================================== -->
+
+<!-- achive -->
 <section id="feature">
-  <div class="container">
+  <div class="container" id="archive">
     <div class="section-heading">
-      <h1 class="title wow fadeInDown" data-wow-delay=".3s">Offer From Me</h1>
+      <h1 class="title wow fadeInDown" data-wow-delay=".3s">🔗 ARCHIVE</h1>
       <p class="wow fadeInDown" data-wow-delay=".5s">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,<br> quasi dolores numquam dolor vero ex, tempora
-        commodi repellendus quod laborum.
+        작업한 프로젝트와 기술 및 공부 자료들을 모아둔 아카이브 공간입니다.
+        <br>
+        첫 시작부터 지금까지의 성과와 경험을 한눈에 볼 수 있도록 정리해 두었습니다. 
+        <br>
+        새로운 프로젝트와 함께 꾸준히 업데이트하며 발전을 위해 꾸준히 노력하고 있습니다.
+        <br>
+        ( 아이콘 - 링크 )
       </p>
     </div>
     <div class="row">
@@ -318,12 +379,16 @@ Portfolio Section Start
         <div class="media wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
           <div class="media-left">
             <div class="icon">
-              <i class="ion-ios-flask-outline"></i>
+              <a href="https://github.com/shyunu" target="_blank">
+                <span class="iconify" data-icon="mdi:github" data-inline="false"></span>
+              </a>
             </div>
+            <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+            
           </div>
           <div class="media-body">
-            <h4 class="media-heading">Media heading</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+            <h4 class="media-heading">Github</h4>
+            <p>깃허브 저장소는 프로젝트의 전반적인 코드와 버전 관리를 위한 공간입니다.</p>
           </div>
         </div>
       </div>
@@ -331,12 +396,15 @@ Portfolio Section Start
         <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="600ms">
           <div class="media-left">
             <div class="icon">
-              <i class="ion-ios-lightbulb-outline"></i>
+              <a href="https://shyunu.tistory.com/" target="_blank">
+                <span class="iconify" data-icon="simple-icons:tistory" data-inline="false"></span>     
+              </a>
             </div>
+            <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
           </div>
           <div class="media-body">
-            <h4 class="media-heading">Well documented.</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+            <h4 class="media-heading">Tistory</h4>
+            <p>현재까지 작업한 프로젝트 및 공부한 내용들을 체계적으로 정리해 두었습니다.</p>
           </div>
         </div>
       </div>
@@ -348,114 +416,15 @@ Portfolio Section Start
             </div>
           </div>
           <div class="media-body">
-            <h4 class="media-heading">Well documented.</h4>
+            <h4 class="media-heading">추가 예정</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-lg-4">
-        <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1200ms">
-          <div class="media-left">
-            <div class="icon">
-              <i class="ion-ios-americanfootball-outline"></i>
-            </div>
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Free updates</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-4">
-        <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1500ms">
-          <div class="media-left">
-            <div class="icon">
-              <i class="ion-ios-keypad-outline"></i>
-            </div>
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Solid Support</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-4">
-        <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1800ms">
-          <div class="media-left">
-            <div class="icon">
-              <i class="ion-ios-barcode-outline"></i>
-            </div>
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Simple Installation</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+      
   </div>
-</section> <!-- /#feature -->
+</section>
 
-
-            <!--
-            ==================================================
-            Call To Action Section Start
-            ================================================== -->
-            <section id="call-to-action">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="block">
-                                <h2 class="title wow fadeInDown" data-wow-delay=".3s" data-wow-duration="500ms">SO WHAT YOU THINK ?</h1>
-                                <p class="wow fadeInDown" data-wow-delay=".5s" data-wow-duration="500ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium.</p>
-                                <a href="contact.html" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">Contact With Me</a>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </section>
-
-            <!--
-            ==================================================
-            Footer Section Start
-            ================================================== -->
-            <footer id="footer">
-                <div class="container">
-                    <div class="row content-justify-between">
-                        <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
-                            <p class="copyright">Copyright: Design and Developed by <a href="http://www.Themefisher.com" target="_blank">Themefisher</a>. <br> 
-                                
-                            </p>
-                        </div>
-                        <div class="col-md-4 col-12">
-                            <!-- Social Media -->
-                            <ul class="social text-center text-md-right text-lg-right">
-                                <li>
-                                    <a href="http://wwww.fb.com/themefisher" class="Facebook">
-                                        <i class="ion-social-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="http://wwww.twitter.com/themefisher" class="Twitter">
-                                        <i class="ion-social-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="Linkedin">
-                                        <i class="ion-social-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="http://wwww.fb.com/themefisher" class="Google Plus">
-                                        <i class="ion-social-googleplus"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </footer> <!-- /#footer -->
 
 	<!-- Template Javascript Files
 	================================================== -->

@@ -12,7 +12,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -146,7 +151,8 @@ a:hover {
   padding: 8px 0;
   display: block;
 }
-.global-page-header .breadcrumb .active, .global-page-header .breadcrumb li a {
+.global-page-header .breadcrumb .active,
+.global-page-header .breadcrumb li a {
   color: #fff;
 }
 .global-page-header .block {
@@ -362,25 +368,47 @@ a:hover {
 #about {
   padding: 110px 0;
 }
-#about .block {
-  padding: 20px 30px 0 30px;
-}
 #about .block h2 {
   font-size: 30px;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
   text-transform: uppercase;
 }
 #about .block p {
   color: #727272;
   font-size: 16px;
-  line-height: 28px;
-  margin-bottom: 35px;
+  line-height: 30px;
 }
 #about .block img {
-  max-width: 100%;
+  width: 55%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 130px;
 }
 
+#about .block .myDetail {
+  width: 55%;
+  margin: 10px auto 0 auto; /* 중앙 정렬 */
+  padding: 15px 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-left: 130px;
+}
+
+#about .block .myDetail p {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+  display: flex; /* 아이콘과 텍스트를 가로로 정렬 */
+  align-items: center; /* 아이콘과 텍스트의 세로 정렬 */
+}
+#about .block .myDetail p i {
+  margin-right: 6px; /* 아이콘과 텍스트 사이 간격 */
+}
 .about-feature {
   margin-top: 50px;
 }
@@ -396,20 +424,19 @@ a:hover {
   background: #02bdd5;
 }
 .about-feature .about-feature-2 {
-  background: #00B0C7;
+  background: #00b0c7;
 }
 .about-feature .about-feature-3 {
-  background: #00A6BB;
+  background: #00a6bb;
 }
 
 /* skills */
 .d-flex img {
   margin: 2px 10px 2px 0px;
 }
-
 .works {
-  padding: 100px 0;
-  background: #FCFCFC;
+  background: #fcfcfc;
+  margin-top: 180px;
 }
 .works .block {
   position: relative;
@@ -467,7 +494,7 @@ figure .img-wrapper {
 }
 
 .image-container img {
-  width: 40%; /* 각 이미지의 너비를 48%로 설정하여 여백을 만듦 */
+  width: 25%; /* 각 이미지의 너비를 48%로 설정하여 여백을 만듦 */
   height: 280px;
   border-radius: 25px;
 }
@@ -599,7 +626,23 @@ figure figcaption p {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  text-shadow: #00a4ba 1px 1px, #00a4ba 2px 2px, #00a4ba 3px 3px, #00a4ba 4px 4px, #00a4ba 5px 5px, #00a4ba 6px 6px, #00a4ba 7px 7px, #00a4ba 8px 8px, #00a4ba 9px 9px, #00a4ba 10px 10px, #00a4ba 11px 11px, #00a4ba 12px 12px, #00a4ba 13px 13px, #00a4ba 14px 14px, #00a4ba 15px 15px, #00a4ba 16px 16px, #00a4ba 17px 17px, #00a4ba 18px 18px, #00a4ba 19px 19px, #00a4ba 20px 20px, #00a4ba 21px 21px, #00a4ba 22px 22px, #00a4ba 23px 23px, #00a4ba 24px 24px, #00a4ba 25px 25px, #00a4ba 26px 26px, #00a4ba 27px 27px, #00a4ba 28px 28px, #00a4ba 29px 29px, #00a4ba 30px 30px, #00a4ba 31px 31px, #00a4ba 32px 32px, #00a4ba 33px 33px, #00a4ba 34px 34px, #00a4ba 35px 35px, #00a4ba 36px 36px, #00a4ba 37px 37px, #00a4ba 38px 38px, #00a4ba 39px 39px, #00a4ba 40px 40px, #00a4ba 41px 41px, #00a4ba 42px 42px, #00a4ba 43px 43px, #00a4ba 44px 44px, #00a4ba 45px 45px, #00a4ba 46px 46px, #00a4ba 47px 47px, #00a4ba 48px 48px, #00a4ba 49px 49px, #00a4ba 50px 50px, #00a4ba 51px 51px, #00a4ba 52px 52px, #00a4ba 53px 53px, #00a4ba 54px 54px, #00a4ba 55px 55px, #00a4ba 56px 56px, #00a4ba 57px 57px, #00a4ba 58px 58px, #00a4ba 59px 59px, #00a4ba 60px 60px, #00a4ba 61px 61px, #00a4ba 62px 62px, #00a4ba 63px 63px, #00a4ba 64px 64px, #00a4ba 65px 65px, #00a4ba 66px 66px, #00a4ba 67px 67px, #00a4ba 68px 68px, #00a4ba 69px 69px, #00a4ba 70px 70px, #00a4ba 71px 71px, #00a4ba 72px 72px, #00a4ba 73px 73px, #00a4ba 74px 74px, #00a4ba 75px 75px, #00a4ba 76px 76px, #00a4ba 77px 77px, #00a4ba 78px 78px, #00a4ba 79px 79px, #00a4ba 80px 80px, #00a4ba 81px 81px, #00a4ba 82px 82px, #00a4ba 83px 83px, #00a4ba 84px 84px, #00a4ba 85px 85px, #00a4ba 86px 86px, #00a4ba 87px 87px, #00a4ba 88px 88px, #00a4ba 89px 89px, #00a4ba 90px 90px, #00a4ba 91px 91px, #00a4ba 92px 92px, #00a4ba 93px 93px, #00a4ba 94px 94px, #00a4ba 95px 95px, #00a4ba 96px 96px, #00a4ba 97px 97px, #00a4ba 98px 98px, #00a4ba 99px 99px, #00a4ba 100px 100px;
+  text-shadow: #00a4ba 1px 1px, #00a4ba 2px 2px, #00a4ba 3px 3px, #00a4ba 4px 4px, #00a4ba 5px 5px, #00a4ba 6px 6px,
+    #00a4ba 7px 7px, #00a4ba 8px 8px, #00a4ba 9px 9px, #00a4ba 10px 10px, #00a4ba 11px 11px, #00a4ba 12px 12px,
+    #00a4ba 13px 13px, #00a4ba 14px 14px, #00a4ba 15px 15px, #00a4ba 16px 16px, #00a4ba 17px 17px, #00a4ba 18px 18px,
+    #00a4ba 19px 19px, #00a4ba 20px 20px, #00a4ba 21px 21px, #00a4ba 22px 22px, #00a4ba 23px 23px, #00a4ba 24px 24px,
+    #00a4ba 25px 25px, #00a4ba 26px 26px, #00a4ba 27px 27px, #00a4ba 28px 28px, #00a4ba 29px 29px, #00a4ba 30px 30px,
+    #00a4ba 31px 31px, #00a4ba 32px 32px, #00a4ba 33px 33px, #00a4ba 34px 34px, #00a4ba 35px 35px, #00a4ba 36px 36px,
+    #00a4ba 37px 37px, #00a4ba 38px 38px, #00a4ba 39px 39px, #00a4ba 40px 40px, #00a4ba 41px 41px, #00a4ba 42px 42px,
+    #00a4ba 43px 43px, #00a4ba 44px 44px, #00a4ba 45px 45px, #00a4ba 46px 46px, #00a4ba 47px 47px, #00a4ba 48px 48px,
+    #00a4ba 49px 49px, #00a4ba 50px 50px, #00a4ba 51px 51px, #00a4ba 52px 52px, #00a4ba 53px 53px, #00a4ba 54px 54px,
+    #00a4ba 55px 55px, #00a4ba 56px 56px, #00a4ba 57px 57px, #00a4ba 58px 58px, #00a4ba 59px 59px, #00a4ba 60px 60px,
+    #00a4ba 61px 61px, #00a4ba 62px 62px, #00a4ba 63px 63px, #00a4ba 64px 64px, #00a4ba 65px 65px, #00a4ba 66px 66px,
+    #00a4ba 67px 67px, #00a4ba 68px 68px, #00a4ba 69px 69px, #00a4ba 70px 70px, #00a4ba 71px 71px, #00a4ba 72px 72px,
+    #00a4ba 73px 73px, #00a4ba 74px 74px, #00a4ba 75px 75px, #00a4ba 76px 76px, #00a4ba 77px 77px, #00a4ba 78px 78px,
+    #00a4ba 79px 79px, #00a4ba 80px 80px, #00a4ba 81px 81px, #00a4ba 82px 82px, #00a4ba 83px 83px, #00a4ba 84px 84px,
+    #00a4ba 85px 85px, #00a4ba 86px 86px, #00a4ba 87px 87px, #00a4ba 88px 88px, #00a4ba 89px 89px, #00a4ba 90px 90px,
+    #00a4ba 91px 91px, #00a4ba 92px 92px, #00a4ba 93px 93px, #00a4ba 94px 94px, #00a4ba 95px 95px, #00a4ba 96px 96px,
+    #00a4ba 97px 97px, #00a4ba 98px 98px, #00a4ba 99px 99px, #00a4ba 100px 100px;
 }
 
 .wrapper_404 h1 {
@@ -792,17 +835,23 @@ article {
   box-shadow: none;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
-#contact-section .address, #contact-section .email, #contact-section .phone {
+#contact-section .address,
+#contact-section .email,
+#contact-section .phone {
   text-align: center;
-  background: #F7F7F7;
+  background: #f7f7f7;
   padding: 20px 0 40px 0;
   margin-bottom: 20px;
 }
-#contact-section .address i, #contact-section .email i, #contact-section .phone i {
+#contact-section .address i,
+#contact-section .email i,
+#contact-section .phone i {
   font-size: 45px;
   color: #02bdd5;
 }
-#contact-section .address h5, #contact-section .email h5, #contact-section .phone h5 {
+#contact-section .address h5,
+#contact-section .email h5,
+#contact-section .phone h5 {
   font-size: 16px;
   line-height: 1.4;
 }
@@ -813,15 +862,15 @@ article {
 #map-canvas {
   width: 100%;
   height: 350px;
-  background-color: #CCC;
+  background-color: #ccc;
 }
 
 .error {
   padding: 10px;
-  color: #D8000C;
+  color: #d8000c;
   border-radius: 2px;
   font-size: 14px;
-  background-color: #FFBABA;
+  background-color: #ffbaba;
 }
 
 .success {
@@ -832,7 +881,8 @@ article {
   padding: 10px;
 }
 
-#error, #success {
+#error,
+#success {
   display: none;
   margin-bottom: 10px;
 }
@@ -858,7 +908,8 @@ article {
 .single-post .post-content {
   padding: 40px 0;
 }
-.single-post .post-content ol li, .single-post .post-content ul li {
+.single-post .post-content ol li,
+.single-post .post-content ul li {
   color: #666;
 }
 .single-post .media {
@@ -962,17 +1013,17 @@ article {
 #product-showcase-banner .block .buttons .btn-demo {
   background: #5abd4f;
   margin-right: 8px;
-  border-bottom: 3px solid #429E38;
+  border-bottom: 3px solid #429e38;
 }
 #product-showcase-banner .block .buttons .btn-demo:hover {
-  background: #429E38;
+  background: #429e38;
 }
 #product-showcase-banner .block .buttons .btn-buy {
-  background: #00AEDA;
-  border-bottom: 3px solid #0190B5;
+  background: #00aeda;
+  border-bottom: 3px solid #0190b5;
 }
 #product-showcase-banner .block .buttons .btn-buy:hover {
-  background: #0190B5;
+  background: #0190b5;
 }
 #product-showcase-banner .block .buttons .btn-buy span {
   margin-right: 8px;
@@ -1135,45 +1186,4 @@ article {
   font-size: 13px;
   margin-bottom: 0;
 }
-#footer .copyright a {
-  color: #02bdd5;
-}
-#footer .social {
-  text-align: right;
-  margin-bottom: 0;
-}
-#footer .social li {
-  display: inline-block;
-  margin-right: 15px;
-}
-#footer .social li a {
-  font-size: 22px;
-  color: #02bdd5;
-}
-
-.cd-headline.slide .cd-words-wrapper {
-  color: #02bdd5;
-}
-
-ul.social-icons {
-  height: auto;
-  overflow: hidden;
-  list-style: none !important;
-  margin-bottom: 10px;
-}
-ul.social-icons li {
-  float: none;
-  display: inline-block;
-  height: 36px;
-}
-
-#copyright a:hover, #copyright nav .menu li a:hover {
-  color: #e4e4e4 !important;
-}
-#copyright a {
-  text-decoration: none;
-}
-#copyright a:hover {
-  text-decoration: none;
-}
-/*# sourceMappingURL=style.css.map */
+#footer 

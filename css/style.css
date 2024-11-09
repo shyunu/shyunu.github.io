@@ -1186,4 +1186,46 @@ article {
   font-size: 13px;
   margin-bottom: 0;
 }
-#footer 
+#footer .copyright a {
+  color: #02bdd5;
+}
+#footer .social {
+  text-align: right;
+  margin-bottom: 0;
+}
+#footer .social li {
+  display: inline-block;
+  margin-right: 15px;
+}
+#footer .social li a {
+  font-size: 22px;
+  color: #02bdd5;
+}
+
+.cd-headline.slide .cd-words-wrapper {
+  color: #02bdd5;
+}
+
+ul.social-icons {
+  height: auto;
+  overflow: hidden;
+  list-style: none !important;
+  margin-bottom: 10px;
+}
+ul.social-icons li {
+  float: none;
+  display: inline-block;
+  height: 36px;
+}
+
+#copyright a:hover,
+#copyright nav .menu li a:hover {
+  color: #e4e4e4 !important;
+}
+#copyright a {
+  text-decoration: none;
+}
+#copyright a:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

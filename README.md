@@ -1,4 +1,4 @@
-# 포트폴리오 (미리보기 http://shyunu.github.io)
+## 포트폴리오 (미리보기 http://shyunu.github.io)
 
 ## 메인페이지
 ![Profile Image 1](images/readMe/profile1.jpg)

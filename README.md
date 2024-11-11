@@ -1,19 +1,17 @@
-# 프로젝트 이름
+# 포트폴리오 (미리보기 http://shyunu.github.io)
 
-## 주제 1
+## 메인페이지
 ![Profile Image 1](images/readMe/profile1.jpg)
 
-## 주제 2
+## 자기소개
 ![Profile Image 2](images/readMe/profile2.jpg)
 
-## 주제 3
+## 보유기술스택
 ![Profile Image 3](images/readMe/profile3.jpg)
 
-## 주제 4
+## 프로젝트
 ![Profile Image 4](images/readMe/profile4.jpg)
-
-## 주제 5
 ![Profile Image 5](images/readMe/profile5.jpg)
 
-## 주제 6
+## 아카이브
 ![Profile Image 6](images/readMe/profile6.jpg)
